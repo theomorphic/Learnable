@@ -24,6 +24,10 @@ body{
 	background-color: #8BC6EC;
 	background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 
+
+	background-image: url(../img/lib.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 .container{
@@ -35,6 +39,7 @@ body{
 	.bio{
 		display: flex;
 		justify-content: center;
+		gap: 30px;
 		align-items: center;
 		border-radius: 1%;
 		padding-top: 0.5rem;
@@ -83,6 +88,8 @@ body{
 			align-items: center;
 			border: black solid 3px;
 			margin: 1rem;
+			box-shadow: inset 0 0 0 2000px rgba(212, 212, 212, 0.089);
+
 
 			.link{
 				padding: 1rem;
